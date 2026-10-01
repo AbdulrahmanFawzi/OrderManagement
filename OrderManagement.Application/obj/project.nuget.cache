@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dj8bgGPl50Y=",
+  "success": true,
+  "projectFilePath": "/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/OrderManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/abdulrahmanfw/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

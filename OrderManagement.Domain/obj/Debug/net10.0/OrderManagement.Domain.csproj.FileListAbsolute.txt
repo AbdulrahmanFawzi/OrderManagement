@@ -1,0 +1,11 @@
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/bin/Debug/net10.0/OrderManagement.Domain.deps.json
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/bin/Debug/net10.0/OrderManagement.Domain.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/bin/Debug/net10.0/OrderManagement.Domain.pdb
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/OrderManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/OrderManagement.Domain.AssemblyInfoInputs.cache
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/OrderManagement.Domain.AssemblyInfo.cs
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/OrderManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/OrderManagement.Domain.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/refint/OrderManagement.Domain.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/OrderManagement.Domain.pdb
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Domain/obj/Debug/net10.0/ref/OrderManagement.Domain.dll

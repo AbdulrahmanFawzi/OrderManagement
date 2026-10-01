@@ -1,0 +1,14 @@
+# NOTE for learning: unlike .gitignore, Docker needs **/ to match
+# nested folders. Plain "bin/" only excludes a root-level bin folder,
+# NOT OrderManagement.Api/bin etc. Missing the **/ prefix was the
+# cause of a NETSDK1064 build failure (host obj/ with stale
+# project.assets.json overwrote the container's restored files).
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+*.user
+.git/
+docker-compose*.yml
+Dockerfile
+.dockerignore

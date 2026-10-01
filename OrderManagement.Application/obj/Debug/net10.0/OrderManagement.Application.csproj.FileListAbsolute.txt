@@ -1,0 +1,15 @@
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.csproj.AssemblyReference.cache
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.AssemblyInfoInputs.cache
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.AssemblyInfo.cs
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.csproj.CoreCompileInputs.cache
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/bin/Debug/net10.0/OrderManagement.Application.deps.json
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/bin/Debug/net10.0/OrderManagement.Application.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/bin/Debug/net10.0/OrderManagement.Application.pdb
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/bin/Debug/net10.0/OrderManagement.Domain.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/bin/Debug/net10.0/OrderManagement.Domain.pdb
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderMan.B2E1D241.Up2Date
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/refint/OrderManagement.Application.dll
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/OrderManagement.Application.pdb
+/Users/abdulrahmanfw/OrderManagement/OrderManagement.Application/obj/Debug/net10.0/ref/OrderManagement.Application.dll

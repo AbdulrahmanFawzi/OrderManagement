@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Thin frontend: Tailwind utilities do the styling.
+   Only page-level defaults live here. */
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}

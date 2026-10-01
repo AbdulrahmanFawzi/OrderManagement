@@ -1,0 +1,46 @@
+# Local development stack: API + Oracle Database Free (23ai).
+# (Oracle Free is the successor of Oracle XE; XE has no version 23,
+# which is why gvenzl/oracle-xe:23-slim does not exist.)
+#
+# Start:   docker compose up --build
+# API:     http://localhost:8080 (OpenAPI: /openapi/v1.json)
+# Oracle:  localhost:1521/FREEPDB1 (user ordermgmt / password ordermgmt)
+#
+# After Oracle is healthy, apply migrations from your machine:
+#   dotnet ef database update \
+#     --project OrderManagement.Infrastructure \
+#     --startup-project OrderManagement.Api
+
+services:
+  oracle:
+    image: gvenzl/oracle-free:23-slim
+    container_name: ordermgmt-oracle
+    environment:
+      ORACLE_PASSWORD: ordermgmt
+      APP_USER: ordermgmt
+      APP_USER_PASSWORD: ordermgmt
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+    healthcheck:
+      test: ["CMD-SHELL", "sqlplus -S ordermgmt/ordermgmt@localhost:1521/FREEPDB1 <<< 'SELECT 1 FROM DUAL;'"]
+      interval: 15s
+      timeout: 10s
+      retries: 20
+
+  api:
+    build: .
+    container_name: ordermgmt-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      # Must match appsettings ConnectionStrings:Oracle when running in compose.
+      ConnectionStrings__Oracle: "User Id=ordermgmt;Password=ordermgmt;Data Source=oracle:1521/FREEPDB1"
+    ports:
+      - "8080:8080"
+    depends_on:
+      oracle:
+        condition: service_healthy
+
+volumes:
+  oracle-data:
